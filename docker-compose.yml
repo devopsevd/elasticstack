@@ -29,6 +29,6 @@ services:
     links:
      - elasticsearch
     environment:
-      ELASTICSEARCH_URL: http://elasticsearch:9200
+      ELASTICSEARCH_URL: http://10.144.2.110:9200
     depends_on:
      - elasticsearch
